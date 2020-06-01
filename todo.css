@@ -1,0 +1,43 @@
+.container {
+  margin: 100px auto;
+  padding: 0%;
+  display: flex;
+  flex-flow: column;
+  padding: 0;
+  background-color: burlywood;
+  height: 600px;
+  width: 400px;
+}
+
+.date {
+  background-color: cadetblue;
+  margin: 0;
+  height: 200px;
+  width: 400px
+}
+
+.night {
+  background-image: url(night.jpg);
+  background-repeat: ;
+  color: white;
+
+}
+
+.day {
+  background-image: url(day.jpeg);
+  color: black;
+}
+
+.list {
+  background-color: cornflowerblue;
+  margin: 0;
+  height: 350px;
+  width: 100%;
+}
+
+.write {
+  background-color: crimson;
+  margin: 0;
+  width: 100%;
+  height: 50px;
+}
