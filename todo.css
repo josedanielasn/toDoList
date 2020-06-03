@@ -1,43 +1,127 @@
 .container {
   margin: 100px auto;
-  padding: 0%;
   display: flex;
   flex-flow: column;
   padding: 0;
-  background-color: burlywood;
   height: 600px;
   width: 400px;
 }
 
 .date {
-  background-color: cadetblue;
   margin: 0;
   height: 200px;
-  width: 400px
+  width: 400px;
+  font-size: 25px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  border: solid rgb(145, 143, 143);
+}
+
+.date span {
+  display: block;
+  margin-top: 130px;
+  text-shadow: black 0.2px 0.5px;
+}
+
+
+.date .fas {
+  color: rgb(145, 143, 143);
+  margin: 10px;
+  float: right;
 }
 
 .night {
   background-image: url(night.jpg);
-  background-repeat: ;
-  color: white;
-
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: orange;
 }
 
 .day {
   background-image: url(day.jpeg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   color: black;
 }
 
 .list {
-  background-color: cornflowerblue;
+  background-color: rgb(230, 205, 172);
   margin: 0;
   height: 350px;
   width: 100%;
+  border: solid rgb(145, 143, 143);
+  display: flex;
+  flex-flow: column;
+  overflow-y: auto;
+}
+
+.list section {
+  width: 100%;
+  height: auto;
+  margin: 0 auto 10px;
+  padding: 0;
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.list section:hover {
+  background-color: rgb(235, 198, 130);
+}
+
+.list i {
+  order: 1;
+  color: rgb(145, 143, 143);
+  size: 30px;
+  margin: 10px 5px;
+}
+
+.list li {
+  display: block;
+  word-wrap: break-word;
+  width: 250px;
+  height: auto;
+  font-size: 1.3em;
+  color: rgb(63, 62, 62);
+  margin: 10px 30px 10px 0px;
+  padding: 10px;
+}
+
+.lineover {
+  text-decoration: line-through;
+}
+
+.text {
+  display: flex;
+  flex-flow: row;
+  border: solid rgb(145, 143, 143);
+  border-bottom-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.text i {
+  position: absolute;
+  color: rgb(145, 143, 143);
+  margin: 18px 15px 15px 15px;
+  size: 50px;
+
 }
 
 .write {
-  background-color: crimson;
+  background-color: rgb(235, 198, 130);
+  border: none;
+  border-bottom-right-radius: 7px;
+  border-bottom-left-radius: 7px;
   margin: 0;
+  padding-left: 40px;
   width: 100%;
   height: 50px;
+  font-size: 1.2em;
+  color: rgb(102, 98, 98);
+  outline: none;
 }
